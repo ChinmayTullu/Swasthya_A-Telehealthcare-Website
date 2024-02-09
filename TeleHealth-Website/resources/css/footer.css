@@ -1,0 +1,93 @@
+.footer {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1 1 300px; /* Responsive flexbox sizing */
+}
+
+.footer .box h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.footer .box p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.footer .box .share {
+    margin-top: 20px;
+}
+
+.footer .box .share a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #28844B;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.footer .box .share a:hover {
+    background-color: #004D49;
+}
+
+.footer .box .link {
+    font-size: 16px;
+    color: #28844B;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .box .link:hover {
+    color: #004D49;
+}
+
+.footer .credit {
+    font-size: 16px;
+    margin-top: 50px;
+    color: #666666;
+}
+
+.footer .credit span {
+    color: #28844B;
+    font-weight: bold;
+}
+.footer .box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+    flex: 1 1 300px; /* Responsive flexbox sizing */
+}
+
+.footer .box i {
+    display: block;
+    margin: 0 auto 20px; /* Center the icons vertically and horizontally */
+}

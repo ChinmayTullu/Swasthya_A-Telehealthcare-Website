@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+
+        <script type="text/javascript" src="https://cookie-cdn.cookiepro.com/consent/b6283d5b-74f3-48da-b50d-5fac7dc42e90/OtAutoBlock.js"></script>
+        <script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="b6283d5b-74f3-48da-b50d-5fac7dc42e90"></script>
+        <script type="text/javascript">
+        function OptanonWrapper() { }
+        </script>
+
+        <script> 
+        // grabs images and assigns a class so that the cookie compliance banner won't block them from loading	
+        window.onload = function() {
+        var imgs = document.querySelectorAll('img');
+        [].forEach.call(imgs, function(element, index, array) {
+            
+                //  remove old class
+            element.classList.remove("optanon-category-C0002");
+            // add a new class
+            element.classList.add("optanon-category-C0001");
+            
+
+        });
+        }
+        </script>
+
+        <meta name="msApplication-TileImage" content="https://lh6.ggpht.com/RXL7nY0qIxg_G6d-PKRsvL9QetCQ73AznMmmvzoPX9n1F6zaJh8T0vsOfqPcNZ6LZA=w300-rw" />
+
+
+        <link rel="dns-prefetch" href="//player.vimeo.com">
+
+        <link rel="dns-prefetch" href="//bid.g.doubleclick.net">
+
+
+
+        <link rel="preconnect" href="https://s3.amazonaws.com">
+
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+        <link rel="preconnect" href="//code.jquery.com">
+
+        <link rel="preconnect" href="//stackpath.bootstrapcdn.com">
+
+        <link rel="preconnect" href="//tag-manager.teladoc.com">
+        <link rel="preconnect" href="//piwik.teladoc.com">
+
+        <link rel="preconnect" href="//vars.hotjar.com">
+        <link rel="preconnect" href="//script.hotjar.com">
+        <link rel="preconnect" href="//in.hotjar.com">
+
+        <link rel="preconnect" href="https://www.google-analytics.com">
+        <link rel="preconnect" href="https://www.google.com">
+        <link rel="preconnect" href="//www.googleadservices.com">
+        <link rel="preconnect" href="//googleads.g.doubleclick.net">
+        <link rel="preconnect" href="https://stats.g.doubleclick.net">
+        <link rel="preconnect" href="//www.googletagmanager.com">
+
+        <link rel="preconnect" href="https://www.facebook.com">
+        <link rel="preconnect" href="//connect.facebook.net">
+
+        <link rel="preconnect" href="//i.vimeocdn.com">
+        <link rel="preconnect" href="https://s3.amazonaws.com">
+        <link rel="preconnect" href="https://d2hrivdxn8ekm8.cloudfront.net"><link rel="preconnect" href="https://www.youtube.com">
+        <link rel="preconnect" href="https://cloudfront.net">
+
+        <link rel="stylesheet" href="https://www.teladoc.com/wp-content/themes/teladoc-members/css/bootstrap4.min.css">
+
+        <!-- 
+        <link href="https://www.teladoc.com/wp-content/themes/teladoc-members/css/styles.min.css?v61" rel="stylesheet" type="text/css"> -->
+
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type= "text/css" href="resources/css/styles.css">
+        <link rel="stylesheet" type= "text/css" href="vendors/css/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet"> 
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="resources/css/footer.css">
+        
+        <script src="https://kit.fontawesome.com/2839c03294.js" crossorigin="anonymous"></script>
+        <title>Swasthya</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+
+        <style>
+            *{
+                font-family: 'Arbutus Slab', serif;
+            }
+            /* Add this CSS to your existing stylesheet or in a separate file */
+            .faq-button {
+                position: fixed;
+                left: 20px; /* Adjust as needed */
+                bottom: 30px; /* Adjust as needed */
+                z-index: 9999; /* Ensure it's above other elements */
+                background-color: #1d1c1c;
+                color: white;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none; /* Remove default underline */
+            }
+
+            .faq-button i {
+                font-size: 24px; /* Adjust as needed */
+            }
+
+                        /* Dropdown Button */
+                        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            /* Dropdown container (hidden by default) */
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+            }
+
+            /* Links inside the dropdown */
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {
+            background-color: #FFF6E5;
+            }
+
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+
+            /* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn {
+            background-color: rgb(129, 129, 129);
+            }
+
+        </style>
+
+
+    </head>
+    
+    <body>
+        <header>
+
+            <nav>
+                <div class="row">
+                    <img src="resources/img/logo.png" alt="Swasthya Logo" class="logo" style="height: 200px;" >
+                    <ul class="main-nav">
+                        <li><a href="/Appointment/apppointment.html">Appointment</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Therapy</a>
+                            <div class="dropdown-content">
+                                <a href="/Mental Health/index.html" target="_blank" style="color:#004D49; font-size: 15px;">Mental Health</a>
+                                <a href="/Nutrition/index.html" target="_blank" style="color:#004D49; font-size: 15px;">Nutrition</a>
+                            </div>
+                        </li>
+                        <li><a href="/Medicine/medicines.html" target="_blank">Medicine</a></li>
+                        <li><a href="/Doctors/doctors.html" target="_blank">Doctors</a></li>
+                        <li><a href="/CommunityForum/forum.html" target="_blank" >Connect</a></li>
+                        <li><a href="/Profile/index.html" target="_blank" >Profile</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+
+
+
+        </header>
+        
+        <a href="/FAQ/faq.html" class="faq-button">
+            <i class="fa-solid fa-question"></i>
+        </a>
+
+        <div class="container">
+            <div class="hero-text-box">
+                <!-- Add a span element to wrap each letter of the title -->
+                <h1 style="color: #28844B; font-size: 70px;"><span id="typewriter">S</span><span id="typewriter">w</span><span id="typewriter">a</span><span id="typewriter">s</span><span id="typewriter">t</span><span id="typewriter">h</span><span id="typewriter">y</span><span id="typewriter">a</span></h1>
+                <!-- Remaining content -->
+                <br><br>
+                <h2>Integrated and Seamless<br> Healthcare Services at Home</h2>
+                <br>
+                <a class="btn button-full" href="/Appointment/apppointment.html">Need Urgent Help ?</a>
+                <a class="btn button-ghost" href="/Profile/prescription.html">Recent Diagnosis</a>
+                <a class="btn button-ghost" href="http://localhost:5173/" target="_blank" style="margin-left: 20px;">Chat with Doctor</a>
+                <a class="btn button-ghost" href="/video_call/room.html" target="_blank" style="margin-left: 20px;">Call Your Doctor</a>
+            </div>
+        </div>
+
+
+        <section class="services-section">
+            <div class="container">
+              <div class="row">
+                <div id="services-area" class="col-12 text-center">
+                  <h2>How can we help you feel better?</h2>
+                </div>
+              </div>
+          
+          <div class="accordion d-none d-md-block" id="accordionExample">
+          
+          <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+          <ul class="nav services-nav justify-content-center nav-fill">
+          <li class="nav-item">
+          <a href="#" id="servicelink1" class="services-link nav-link active" data-bs-toggle="collapse" data-bs-target="#everydaycare" aria-expanded="true"><img class="services-icon1" src="https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/Icons-GenMed.jpg" alt="medical suitcase icon" /><br>General Med</a>
+          </li>
+          <li class="nav-item">
+          <a href="#" id="servicelink2" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#primary360" aria-expanded="false"><img class="services-icon2" src="https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/Icons-Primary360.jpg" alt="virtual pcp doctor icon" /><br>Primary360</a>
+          </li>
+          <li class="nav-item">
+          <a href="#" id="servicelink3" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#mentalhealth" aria-expanded="false"><img class="services-icon3" src="https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/Icons-MentalHealth.jpg" alt="emotional health icon" /><br>Mental Health</a>
+          </li>
+          <li class="nav-item">
+          <a href="#" id="servicelink4" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#medicalexperts" aria-expanded="false"><img class="services-icon4" src="https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/Icons-Specialists.jpg" alt="world-renowned physicians icon" /><br>Specialist Advice</a>
+          </li>
+          <li class="nav-item">
+          <a href="#" id="servicelink5" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#wellnesscare" aria-expanded="false"><img class="services-icon5" src="https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/Icons-Wellness.jpg" alt="heart icon" /><br>Wellness</a>
+          </li>
+          </ul>
+          </div>
+          </div>
+          
+          
+          
+          <div id="everydaycare" class="row collapse show" data-bs-parent="#accordionExample">
+          <div class="col-12 col-md-4 offset-md-1 d-none d-md-block">
+          <img class="services-image" src="https://www.teladoc.com/wp-content/uploads/2019/10/everyday-care.jpg" alt="Guy holding up a tissue to his runny nose" />
+          </div>
+          <div class="col-12 col-md-6 services-content">
+          <h3>General Medical</h3>
+          <ul>
+          <li>
+          <p><strong>For adults</strong>
+          <br>Get care 24/7 for non-emergency conditions like cold &amp; flu, sinus infections, allergies and more.
+          </p>
+          </li>
+          <li>
+          <p><strong>For children</strong>
+          <br>Connect with a pediatrician 24/7 for non-emergency conditions like cold &amp; flu, allergies, pink eye, stomachache and more.
+          </p>
+          </li>
+          </ul>
+          
+          </div>
+          </div>
+          
+          
+          <div id="primary360" class="row collapse" data-bs-parent="#accordionExample">
+          <div class="col-12 col-md-4 offset-md-1 d-none d-md-block">
+          <img class="services-image" src="https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/primary360.jpg" alt="Asian woman using her laptop to access care from a Teladoc primary care physician" />
+          </div>
+          <div class="col-12 col-md-6 services-content">
+          <h3>Schedule a Primary Care Visit</h3>
+          <ul>
+          <li>
+          <p><strong>For adults</strong>
+          <br>Consult with a primary care provider for routine checkups, ongoing wellness needs and referrals.
+          <br>
+          <a class="link-arrow" href="https://www.teladoc.com/primary360/" target="_blank" rel="noopener" aria-label="Learn more about Primary360">Learn more about Primary360</a>
+          </p>
+          </li>
+          </ul>
+          <h3>General Medical</h3>
+          <ul>
+          <li>
+          <p><strong>For adults</strong>
+          <br>Get care 24/7 for non-emergency conditions like cold &amp; flu, sinus infections, allergies and more.
+          </p>
+          </li>
+          <li>
+          <p><strong>For children</strong>
+          <br>Connect with a pediatrician 24/7 for non-emergency conditions like cold &amp; flu, allergies, pink eye, stomachache and more.
+          </p>
+          </li>
+          </ul>
+          
+          </div>
+          </div>
+          
+          
+          <div id="mentalhealth" class="row collapse" data-bs-parent="#accordionExample">
+          <div class="col-12 col-md-4 offset-md-1 d-none d-md-block">
+          <img class="services-image" src="https://www.teladoc.com/wp-content/uploads/2019/10/mental-health.jpg" alt="Woman that is using the app on her phone to talk with a licensed counselor" />
+          </div>
+          <div class="col-12 col-md-6 services-content">
+          <h3>Mental Health</h3>
+          <p>Schedule a visit with a therapist or psychiatrist, 7 days a week for challenges like depression, anxiety, stress, not feeling like yourself and many others.<br>
+          <a class="link-arrow" href="https://www.teladoc.com/therapy/" target="_blank" rel="noopener" aria-label="Learn more about Mental Health">Learn more about Mental Health</a>
+          </p>
+          <h3>Adolescent Mental Health </h3>
+          <p>Help your teen cope and grow with online therapy. Therapists are available by phone or video 7 days a week and can assist with issues like school stress, family challenges, depression and more.
+          <br>
+          <a class="link-arrow" href="https://www.teladoc.com/ways-we-help/adolescent-mental-health/" target="_blank" rel="noopener" aria-label="Learn more about Adolescent Mental Health">Learn more about Adolescent Mental Health</a>
+          </p>
+          
+          </div>
+          </div>
+          
+          
+          <div id="medicalexperts" class="row collapse" data-bs-parent="#accordionExample">
+          <div class="col-12 col-md-4 offset-md-1 d-none d-md-block">
+          <img class="services-image" src="https://www.teladoc.com/wp-content/uploads/2019/10/medical-experts-image.jpg" alt="Medical Expert reviewing x-rays on a tablet." />
+          </div>
+          <div class="col-12 col-md-6 services-content">
+          <h3>Dermatology</h3>
+          <p>Upload photos of your skin condition online or on the app and a dermatologist will send a custom treatment plan within 24 hours or less. We treat acne, eczema, psoriasis and more.<br>
+          <a class="link-arrow" href="https://www.teladoc.com/dermatology/" target="_blank" rel="noopener" aria-label="Learn more about Dermatology">Learn more about Dermatology</a>
+          </p>
+          <h3>Expert Medical Opinion</h3>
+          <p>Have a leading specialist evaluate an existing condition or give guidance on your medical concerns (heart disease, cancer, surgery, joint or back pain and more).<br>
+          <a class="link-arrow" href="https://www.teladoc.com/medical-experts/" target="_blank" rel="noopener" aria-label="Learn more about Expert Medical Opinion">Learn more about Expert Medical Opinion</a>
+          </p>
+          <p class="symptoms-sub"><sub><b>Specialties:</b> Cover 450+ specialties including cardiology, oncology, pain management, gastroenterology, rheumatology, pain medicine</sub></p>
+          </div>
+          </div>
+          
+          
+          <div id="wellnesscare" class="row collapse" data-bs-parent="#accordionExample">
+          <div class="col-12 col-md-4 offset-md-1 d-none d-md-block">
+          <img class="services-image" src="https://www.teladoc.com/wp-content/uploads/2019/10/wellness-and-prevention.jpg" alt="Woman doing yoga." />
+          </div>
+          <div class="col-12 col-md-6 services-content">
+          <h3>Nutrition</h3>
+          <p>Work with a registered dietitian to manage your weight or a health condition like diabetes or high blood pressure.<br>
+          <a class="link-arrow" href="https://www.teladoc.com/nutrition/" target="_blank" rel="noopener" aria-label="Learn more about Nutrition">Learn more about Nutrition</a>
+          </p>
+          <h3>Tobacco Cessation</h3>
+          <p>Get the help you need to quit with doctor-prescribed medications (if right for you) and ongoing support from a registered nurse.</p>
+          </div>
+          </div>
+          
+          
+          </div>
+        </div>
+        </section>
+
+        <style>
+
+            .ways-we-help {
+                background-image: url(https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/hero-help.jpg) !important;
+                padding: 94px 0 120px;
+            }
+            
+            @media (max-width: 1200px) {
+                .ways-we-help {
+                    background-position: 57% 50px !important;
+                }
+            }
+            
+            @media (max-width: 600px) {
+                .ways-we-help {
+                    background-position: 57% 10% !important;
+                }
+            }
+            
+            .ways-we-help .main-header {
+                padding-top: 40px !important;
+                padding-bottom: 100px !important;
+            }
+            
+            .ways-we-help .header-title {
+                padding-top: 0 !important;
+            }
+            
+            .services-section {
+                padding: 60px 0;
+            }
+            
+            @media (max-width: 767px) {
+                .services-section {
+                    padding: 60px 0 35px !important;
+                }
+            }
+            
+            .services-nav {
+                border-bottom: 1px solid #dddcdd;
+                padding: 20px 0 0;
+            }
+            
+            @media (max-width: 992px) {
+                .services-nav {
+                    border-bottom: none;
+                    padding: 10px 0 0;
+                }
+            }
+            
+            .services-nav a:hover {
+                cursor: pointer !important;
+            }
+            
+            .services-nav img {
+                max-width: 105px;
+            }
+            
+            .services-nav a {
+                border-bottom: 3px solid #5b2f91;
+            }
+            
+            .services-nav a.collapsed {
+                border-bottom: none;
+                color: #57575c;
+            }
+            
+            .services-nav a.collapsed img {
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+            }
+            
+            .services-content {
+                padding-top: 40px;
+            }
+            
+            .services-content h3 {
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 28.8px;
+                margin-bottom: 5px;
+            }
+            
+            @media (max-width: 992px) {
+                .services-content {
+                    padding-top: 20px;
+                }
+            }
+            
+            .services-image {
+                width: 100%;
+                height: auto;
+                margin-top: 15px;
+            }
+            
+            .services-button {
+                margin-top: 25px;
+            }
+            
+            .services-disclaimer {
+                margin-top: 45px;
+            }
+            
+            @media (max-width: 992px) {
+                .services-disclaimer {
+                    margin-top: 20px;
+                }
+            
+                .app .app-section {
+                    padding-top: 0 !important;
+                    border-top: none !important;
+                }
+            }
+            
+            .fa-info-circle {
+                color: #eda333;
+            }
+            
+            .app .app-section {
+                padding-bottom: 0;
+                padding-top: 40px;
+                border-top: 1px solid #dddcdd;
+            }
+            
+            .app .app-image {
+                background-image: url(https://s3.amazonaws.com/images.teladoc.com/www/2019/site/ways-we-help/neighborhood.jpg);
+                background-size: cover;
+                background-position: bottom;
+                margin: 0;
+            }
+            
+            .app-badging {
+                width: 100%;
+                max-width: 180px;
+                height: auto;
+            }
+            
+            @media (max-width: 767px) {
+                .app-badging {
+                    max-width: 135px !important;
+                }
+            }
+            
+            .app video {
+                width: 100%;
+                height: auto;
+                margin-top: 25px;
+            }
+            
+            .app-video .app-video-header img {
+                width: 100%;
+                height: auto;
+                max-width: 600px;
+            }
+            
+            .services-carousel {
+                padding-top: 30px;
+            }
+            
+            @media (max-width: 500px) {
+                .services-carousel {
+                    max-height: 500px;
+                }
+            
+                .services-carousel .card-body {
+                    min-height: 300px !important;
+                }
+            }
+            
+            .services-carousel .card {
+                border-radius: 10px !important;
+            }
+            
+            .services-carousel .card-img-top {
+                width: 100%;
+                border-top-left-radius: 9px;
+                border-top-right-radius: 9px;
+            }
+            
+            .services-carousel .card-body {
+                min-height: 260px !important;
+                padding-bottom: 0 !important;
+            }
+            
+            ul.services-bullets {
+                font-size: 0.9rem;
+                padding-left: 15px !important;
+            }
+            
+            .services-carousel .card-footer {
+                padding: 0 15px 15px 15px;
+                background: 0 0;
+                border: none;
+            }
+            
+            .services-carousel .card-footer .btn-secondary {
+                margin-top: 0;
+            }
+            
+            .services-icon1,
+            .services-icon2,
+            .services-icon3,
+            .services-icon4,
+            .services-icon5 {
+                transition: all 0.2s;
+            }
+            
+            .full-color {
+                -webkit-filter: none !important;
+                filter: none !important;
+            }
+            
+            @media (max-width: 992px) {
+                .faqs {
+                    padding-bottom: 0;
+                }
+            }
+            
+            .slick-slider {
+                position: relative;
+                display: block;
+                box-sizing: border-box;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-touch-callout: none;
+                -khtml-user-select: none;
+                -ms-touch-action: pan-y;
+                touch-action: pan-y;
+                -webkit-tap-highlight-color: transparent;
+            }
+            
+            .slick-list {
+                position: relative;
+                display: block;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .slick-list:focus {
+                outline: 0;
+            }
+            
+            .slick-list.dragging {
+                cursor: pointer;
+            }
+            
+            .slick-slider .slick-list,
+            .slick-slider .slick-track {
+                -webkit-transform: translate3d(0, 0, 0);
+                -moz-transform: translate3d(0, 0, 0);
+                -ms-transform: translate3d(0, 0, 0);
+                -o-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+            
+            .slick-track {
+                position: relative;
+                top: 0;
+                left: 0;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .slick-track:after,
+            .slick-track:before {
+                display: table;
+                content: "";
+            }
+            
+            .slick-track:after {
+                clear: both;
+            }
+            
+            .slick-loading .slick-track {
+                visibility: hidden;
+            }
+            
+            .slick-slide {
+                display: none;
+                float: left;
+                height: 100%;
+                min-height: 1px;
+                margin: 0 5px;
+            }
+            
+            [dir=rtl] .slick-slide {
+                float: right;
+            }
+            
+            .slick-slide img {
+                display: block;
+            }
+            
+            .slick-slide.slick-loading img {
+                display: none;
+            }
+            
+            .slick-slide.dragging img {
+                pointer-events: none;
+            }
+            
+            .slick-initialized .slick-slide {
+                display: block;
+            }
+            
+            .slick-loading .slick-slide {
+                visibility: hidden;
+            }
+            
+            .slick-vertical .slick-slide {
+                display: block;
+                height: auto;
+                border: 1px solid transparent;
+            }
+            
+            .slick-arrow.slick-hidden {
+                display: none;
+            }
+            
+            .symptoms-sub {
+                margin-top: 20px;
+            }            
+
+        </style>
+        
+
+        <div></div>
+
+        <section class="section-benefits">
+            <div class="row" style="justify-content: center;">
+                <h3>
+                    WHAT'S SO GOOD ABOUT Swasthya?
+                </h3>
+                <p class="long-copy">
+                    By bringing care into the home, Swasthya enhances your access to healthcare and improves productivity in our healthcare system. So rest assured, whoever you are, whatever you do, Swasthya promises wonderful benefits for you!
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <i class="ion-android-favorite-outline icon-big"></i>
+                    <h4>GREATER COMFORT</h4>
+                    <p>Instead of moving to a facility that is not in their network, patients can receive the healthcare services they need from wherever they are.</p>
+                </div>
+                 <div class="col span-1-of-4 box">
+                    <i class="ion-ios-people-outline icon-big"></i>
+                    <h4>REDUCE RESOURCES</h4>
+                    <p>Optimise resources to overcome manpower and logistic constraints in the healthcare sector.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-android-checkbox-outline icon-big"></i>
+                    <h4>BETTER QUALITY</h4>
+                    <p>Patients can expect better outcomes as they have faster access to specialists who can apply higher standards of care. </p>
+                </div>
+               
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-clock-outline icon-big"></i>
+                    <h4>SAVE TIME</h4>
+                    <p>Unnecessary admissions and readmissions are reduced with the help of remote consultations and monitoring.</p>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="section-application">
+            <div class="row">
+                <h3>Swasthya TRACK &mdash; AS SIMPLE AS 1, 2, 3</h3>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/healthhub_burned.png" alt="Swasthya App on iPhone" class="app-screen">
+                </div>
+            
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Simply sign-up for a Swasthya account and choose a health goal.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>2</div>
+                        <p>Connect with over 100 popular health and activity trackers such as Healthy 365, Fitbit, Withings, Jawbone, Garmin, S Health, &emsp;&emsp;&emsp;&ensp; Google Fit and more.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>3</div>
+                        <p>Once connected, you will receive regular health tips and insights on the activities you do every day and learn how they impact your  &emsp;&emsp;&emsp;&emsp;health.</p>
+                    </div>
+                    
+                    <a href="#" class="button-app"><img src="resources/img/download-app.svg" alt="app store button"> </a>
+                    <a href="#" class="button-app"><img src="resources/img/download-app-android.png" alt="play store button"> </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-contactus">
+            <div class="row">
+                <h3>WE'RE HAPPY TO HEAR FROM YOU</h3>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="family">Family</option>
+                                <option value="doctor">Doctor</option>
+                                <option value="news">News</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="news">Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Anything you'd like to tell us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value=" Submit ">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+     
+        <section class="footer">
+
+            <div class="box-container">
+        
+        
+                <div class="box">
+                    <h3><strong>Find Us Here</strong></h3>
+                    
+                    <div style="border: 2px #004D49; border-style: dotted;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.983347746455!2d72.83328527495452!3d19.064469752334894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c91130392c07%3A0x3c47bf391c8de931!2sThadomal%20Shahani%20Engineering%20College!5e0!3m2!1sen!2sin!4v1697261022269!5m2!1sen!2sin" height="400" width="1200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                     
+                    <p>Opp Thadomal Shahani Engineering College, Linking Road, Bandra (W), Mumbai-50</p>
+        
+                </div>
+        
+                <div style="padding: 20%; padding-top: 10%;">
+                    <div class="box">
+        
+                        <div class="box">
+                            <h3><strong>Contact us</strong></h3>
+                            <a href="tel:+91 98765 43210" target="_blank" class="link" style="text-decoration: none;">+91 98765 43210</a>
+                            <a href="mailto:swastya@gmail.com" target="_blank" class="link" style="text-decoration: none;">swasthya@gmail.com</a>
+                        </div>
+        
+                        <br><br><br><br>
+                        <h3><strong>Social Media</strong></h3>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="credit">created by <span><strong style="font-size: 50px; font-family: 'Times New Roman', Times, serif;">  Swasthya </strong></span>| All rights are reserved!</div>
+           
+        </section>
+
+    </body>
+
+    <script>
+        // JavaScript code to implement the typewriter effect
+    document.addEventListener("DOMContentLoaded", function () {
+    // Array to store all the spans containing each letter of the title
+    var titleLetters = document.querySelectorAll("#typewriter");
+
+    // Delay between displaying each letter (in milliseconds)
+    var typingSpeed = 200;
+
+    // Function to animate the title letters
+    function typeWriter() {
+        // Loop through each letter and display it with a delay
+        for (var i = 0; i < titleLetters.length; i++) {
+            setTimeout(function (index) {
+                return function () {
+                    titleLetters[index].style.opacity = 1; // Make the letter visible
+                };
+            }(i), i * typingSpeed);
+        }
+    }
+
+    // Start the typewriter effect when the page is loaded
+    typeWriter();
+});
+
+    </script>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Add fade-in animation to hero section
+    var heroTextBox = document.querySelector(".hero-text-box");
+    heroTextBox.classList.add("fadeIn");
+
+    // Add slide-in animation to benefits section when it enters the viewport
+    window.addEventListener("scroll", function() {
+        var benefitBoxes = document.querySelectorAll(".section-benefits .box");
+        benefitBoxes.forEach(function(box) {
+            if (isElementInViewport(box) && !box.classList.contains("visible")) {
+                box.classList.add("visible");
+            }
+        });
+    });
+
+    // Check if element is in viewport
+    function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+});
+
+    </script>
+    
+    <script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Add fade-in animation to hero section
+        var heroTextBox = document.querySelector(".hero-text-box");
+        heroTextBox.classList.add("fadeIn");
+
+        // Add slide-in animation to benefits section when it enters the viewport
+        var benefitBoxes = document.querySelectorAll(".section-benefits .box");
+        window.addEventListener("scroll", function() {
+            benefitBoxes.forEach(function(box) {
+                if (isElementInViewport(box) && !box.classList.contains("visible")) {
+                    box.classList.add("visible");
+                }
+            });
+        });
+
+        // Add slide-in animation to application section when it enters the viewport
+        var applicationBoxes = document.querySelectorAll(".section-application .steps-box");
+        window.addEventListener("scroll", function() {
+            applicationBoxes.forEach(function(box) {
+                if (isElementInViewport(box) && !box.classList.contains("visible")) {
+                    box.classList.add("visible");
+                }
+            });
+        });
+
+        // Check if element is in viewport
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+    });
+
+
+    </script>
+
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "ubrPH49RWF-Js0QWX2QRr",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="ubrPH49RWF-Js0QWX2QRr"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+
+
+    <script defer class="optanon-category-C0001" data-ot-ignore src="https://www.teladoc.com/wp-content/themes/teladoc-members/js/bootstrap.min.js"></script>
+    <script defer class="optanon-category-C0001" data-ot-ignore src="https://www.teladoc.com/wp-content/themes/teladoc-members/js/new-site/scripts.min.js?v5"></script>
+    <script defer class="optanon-category-C0001" data-ot-ignore src="https://www.teladoc.com/wp-content/themes/teladoc-members/js/new-site/slick.min.js?v3"></script>
+
+
+    <script>
+    // Makes services icons go full color on hover
+    $(document).ready(function(){
+    $("#servicelink1").hover(function(){
+    $(".services-icon1").toggleClass("full-color");  
+    });
+    $("#servicelink2").hover(function(){
+    $(".services-icon2").toggleClass("full-color");  
+    });
+    $("#servicelink3").hover(function(){
+    $(".services-icon3").toggleClass("full-color");  
+    });
+    $("#servicelink4").hover(function(){
+    $(".services-icon4").toggleClass("full-color");  
+    });
+    $("#servicelink5").hover(function(){
+    $(".services-icon5").toggleClass("full-color");  
+    });
+    });
+        
+
+    // Hides or show service based on what link users come from on home page
+    $(document).ready(function () {
+    if(window.location.href.indexOf("mentalhealth") > -1) {
+    $('#everydaycare').collapse('toggle');
+    $('#mentalhealth').addClass('show');
+    $('#servicelink3').removeClass('collapsed');	   
+    }
+    });
+
+    $(document).ready(function () {
+    if(window.location.href.indexOf("primary360") > -1) {
+    $('#everydaycare').collapse('toggle');
+    $('#primary360').addClass('show');
+    $('#servicelink2').removeClass('collapsed');	   
+    }  
+    });
+
+    $(document).ready(function () {
+    if(window.location.href.indexOf("medicalexperts") > -1) {
+    $('#everydaycare').collapse('toggle');
+    $('#medicalexperts').addClass('show');
+    $('#servicelink4').removeClass('collapsed');	   
+    }  
+    });
+
+    $(document).ready(function () {
+    if(window.location.href.indexOf("wellnesscare") > -1) {
+    $('#everydaycare').collapse('toggle');
+    $('#wellnesscare').addClass('show');
+    $('#servicelink5').removeClass('collapsed');	   
+    }  
+    });
+
+    // Ways we help services carousel on mobile devices
+
+    $(document).ready(function(){
+	
+        var slide;
+
+    if(window.location.href.indexOf("primary360") > -1) {
+            slide = 1;
+        }
+        else if(window.location.href.indexOf("mentalhealth") > -1) {
+            slide = 2;
+        }
+            else if(window.location.href.indexOf("medicalexperts") > -1) {
+            slide = 3;
+        }
+            else if(window.location.href.indexOf("wellnesscare") > -1) {
+            slide = 4;
+        }
+        else{
+            slide = 0;
+        }
+	
+	
+        $('.services-carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 4,	  
+        autoplay: false,
+        arrows: false,
+        infinite: true,
+        initialSlide: slide,	  
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+            }
+            },
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+            },
+            {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+            
+        
+        });
+    });
+	
+	
+
+	
+</script>
+
+
+</html>

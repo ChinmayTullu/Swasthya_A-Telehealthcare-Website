@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type= "text/css" href="resources/css/styles.css">
+        <link rel="stylesheet" type= "text/css" href="vendors/css/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet"> 
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="resources/css/footer.css">
+        
+        <script src="https://kit.fontawesome.com/2839c03294.js" crossorigin="anonymous"></script>
+        
+        <title>Swasthya</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+
+        <style>
+            *{
+                font-family: 'Arbutus Slab', serif;
+            }
+            /* Dropdown Button */
+            .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            /* Dropdown container (hidden by default) */
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+            }
+
+            /* Links inside the dropdown */
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {
+            background-color: #FFF6E5;
+            }
+
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+
+            /* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn {
+            background-color: rgb(129, 129, 129);
+            }
+
+            .faq-button {
+                position: fixed;
+                left: 20px; /* Adjust as needed */
+                bottom: 30px; /* Adjust as needed */
+                z-index: 9999; /* Ensure it's above other elements */
+                background-color: #1d1c1c;
+                color: white;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none; /* Remove default underline */
+            }
+
+            .faq-button i {
+                font-size: 24px; /* Adjust as needed */
+            }
+
+                        /* Dropdown Button */
+            .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+        </style>
+
+
+    </head>
+    
+    <body>
+        <header>
+
+            <nav>
+                <div class="row">
+                    <img src="resources/img/logo.png" alt="Swasthya Logo" class="logo" style="height: 200px;" >
+                    <ul class="main-nav">
+                        <li><a href="/Register/register.html">Appointment</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Therapy</a>
+                            <div class="dropdown-content">
+                                <a href="/Mental Health/index.html" target="_blank" style="color:#004D49; font-size: 15px;">Mental Health</a>
+                                <a href="/Nutrition/index.html" target="_blank" style="color:#004D49; font-size: 15px;">Nutrition</a>
+                            </div>
+                        </li>
+                        <li><a href="/Medicine/medicines.html" target="_blank">Medicine</a></li>
+                        <li><a href="/Doctors/doctors.html" target="_blank">Doctors</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+
+
+
+
+
+        </header>
+        
+        <a href="/FAQ/faq.html" class="faq-button">
+            <i class="fa-solid fa-question"></i>
+        </a>
+
+        <div class="container">
+            <div class="hero-text-box">
+                <!-- Add a span element to wrap each letter of the title -->
+                <h1 style="color: #28844B; font-size: 70px;"><span id="typewriter">S</span><span id="typewriter">w</span><span id="typewriter">a</span><span id="typewriter">s</span><span id="typewriter">t</span><span id="typewriter">h</span><span id="typewriter">y</span><span id="typewriter">a</span></h1>
+                <!-- Remaining content -->
+                <br><br>
+                <h2>Integrated and Seamless<br> Healthcare Services at Home</h2>
+                <br>
+                <a class="btn button-full" href="/Login/login.html">Get Started</a>
+                <a class="btn button-ghost" href="/About/about.html">Find out more</a>
+                <a class="btn button-ghost" href="#" style="margin-left: 20px;">How can I help?</a>
+            </div>
+        </div>
+
+        <section class="section-benefits">
+            <div class="row">
+                <h3>
+                    WHAT'S SO GOOD ABOUT Swasthya?
+                </h3>
+                <p class="long-copy">
+                    By bringing care into the home, Swasthya enhances your access to healthcare and improves productivity in our healthcare system. So rest assured, whoever you are, whatever you do, Swasthya promises wonderful benefits for you!
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <i class="ion-android-favorite-outline icon-big"></i>
+                    <h4>GREATER COMFORT</h4>
+                    <p>Instead of moving to a facility that is not in their network, patients can receive the healthcare services they need from wherever they are.</p>
+                </div>
+                 <div class="col span-1-of-4 box">
+                    <i class="ion-ios-people-outline icon-big"></i>
+                    <h4>REDUCE RESOURCES</h4>
+                    <p>Optimise resources to overcome manpower and logistic constraints in the healthcare sector.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-android-checkbox-outline icon-big"></i>
+                    <h4>BETTER QUALITY</h4>
+                    <p>Patients can expect better outcomes as they have faster access to specialists who can apply higher standards of care. </p>
+                </div>
+               
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-clock-outline icon-big"></i>
+                    <h4>SAVE TIME</h4>
+                    <p>Unnecessary admissions and readmissions are reduced with the help of remote consultations and monitoring.</p>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="section-application">
+            <div class="row">
+                <h3>Swasthya TRACK &mdash; AS SIMPLE AS 1, 2, 3</h3>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/healthhub_burned.png" alt="Swasthya App on iPhone" class="app-screen">
+                </div>
+            
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Simply sign-up for a Swasthya account and choose a health goal.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>2</div>
+                        <p>Connect with over 100 popular health and activity trackers such as Healthy 365, Fitbit, Withings, Jawbone, Garmin, S Health, &emsp;&emsp;&emsp;&ensp; Google Fit and more.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>3</div>
+                        <p>Once connected, you will receive regular health tips and insights on the activities you do every day and learn how they impact your  &emsp;&emsp;&emsp;&emsp;health.</p>
+                    </div>
+                    
+                    <a href="#" class="button-app"><img src="resources/img/download-app.svg" alt="app store button"> </a>
+                    <a href="#" class="button-app"><img src="resources/img/download-app-android.png" alt="play store button"> </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-contactus">
+            <div class="row">
+                <h3>WE'RE HAPPY TO HEAR FROM YOU</h3>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="family">Family</option>
+                                <option value="doctor">Doctor</option>
+                                <option value="news">News</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="news">Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Anything you'd like to tell us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value=" Submit ">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+     
+        <section class="footer">
+
+            <div class="box-container">
+        
+        
+                <div class="box">
+                    <h3><strong>Find Us Here</strong></h3>
+                    
+                    <div style="border: 2px #004D49; border-style: dotted;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.983347746455!2d72.83328527495452!3d19.064469752334894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c91130392c07%3A0x3c47bf391c8de931!2sThadomal%20Shahani%20Engineering%20College!5e0!3m2!1sen!2sin!4v1697261022269!5m2!1sen!2sin" height="400" width="1200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                     
+                    <p>Opp Thadomal Shahani Engineering College, Linking Road, Bandra (W), Mumbai-50</p>
+        
+                </div>
+        
+                <div style="padding: 20%; padding-top: 10%;">
+                    <div class="box">
+        
+                        <div class="box">
+                            <h3><strong>Contact us</strong></h3>
+                            <a href="tel:+91 98765 43210" target="_blank" class="link" style="text-decoration: none;">+91 98765 43210</a>
+                            <a href="mailto:swastya@gmail.com" target="_blank" class="link" style="text-decoration: none;">swasthya@gmail.com</a>
+                        </div>
+        
+                        <br><br><br><br>
+                        <h3><strong>Social Media</strong></h3>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="credit">created by <span><strong style="font-size: 50px; font-family: 'Times New Roman', Times, serif;">  Swasthya </strong></span>| All rights are reserved!</div>
+           
+        </section>
+
+    </body>
+
+    <script>
+        // JavaScript code to implement the typewriter effect
+    document.addEventListener("DOMContentLoaded", function () {
+    // Array to store all the spans containing each letter of the title
+    var titleLetters = document.querySelectorAll("#typewriter");
+
+    // Delay between displaying each letter (in milliseconds)
+    var typingSpeed = 200;
+
+    // Function to animate the title letters
+    function typeWriter() {
+        // Loop through each letter and display it with a delay
+        for (var i = 0; i < titleLetters.length; i++) {
+            setTimeout(function (index) {
+                return function () {
+                    titleLetters[index].style.opacity = 1; // Make the letter visible
+                };
+            }(i), i * typingSpeed);
+        }
+    }
+
+    // Start the typewriter effect when the page is loaded
+    typeWriter();
+});
+
+    </script>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Add fade-in animation to hero section
+    var heroTextBox = document.querySelector(".hero-text-box");
+    heroTextBox.classList.add("fadeIn");
+
+    // Add slide-in animation to benefits section when it enters the viewport
+    window.addEventListener("scroll", function() {
+        var benefitBoxes = document.querySelectorAll(".section-benefits .box");
+        benefitBoxes.forEach(function(box) {
+            if (isElementInViewport(box) && !box.classList.contains("visible")) {
+                box.classList.add("visible");
+            }
+        });
+    });
+
+    // Check if element is in viewport
+    function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+});
+
+
+
+    </script>
+    
+    <script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Add fade-in animation to hero section
+        var heroTextBox = document.querySelector(".hero-text-box");
+        heroTextBox.classList.add("fadeIn");
+
+        // Add slide-in animation to benefits section when it enters the viewport
+        var benefitBoxes = document.querySelectorAll(".section-benefits .box");
+        window.addEventListener("scroll", function() {
+            benefitBoxes.forEach(function(box) {
+                if (isElementInViewport(box) && !box.classList.contains("visible")) {
+                    box.classList.add("visible");
+                }
+            });
+        });
+
+        // Add slide-in animation to application section when it enters the viewport
+        var applicationBoxes = document.querySelectorAll(".section-application .steps-box");
+        window.addEventListener("scroll", function() {
+            applicationBoxes.forEach(function(box) {
+                if (isElementInViewport(box) && !box.classList.contains("visible")) {
+                    box.classList.add("visible");
+                }
+            });
+        });
+
+        // Check if element is in viewport
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+    });
+
+
+    </script>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "ubrPH49RWF-Js0QWX2QRr",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="ubrPH49RWF-Js0QWX2QRr"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+
+</html>
